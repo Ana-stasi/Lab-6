@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=3.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
     <link
@@ -11,54 +11,52 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=4.0" />
     <title>Anastasii</title>
   </head>
   <body onload="show()">
+    <h2 align="center"> Можете зарегистрировать ваш автомобиль</h2>
     <form id="registerForm" class="container">
       <div class="input-group mb-3 mt-3">
         <div class="input-group-prepend">
-          <span class="input-text" id="owner"
-            >Owner</span
+          <span class="input-text" id="owner">Владелец</span
+          >
+        </div>
+        <input type="text"
+          size = 40
+          name ="owner_text"
+        />
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-text" id="Model"
+            >Модель</span
           >
         </div>
         <input
           type="text"
-          class="form-control"
-          aria-label="owner input"
+          size = 40
+          aria-label="Model input"
           aria-describedby="inputGroup-sizing-default"
         />
       </div>
 
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <span class="input-text" id="Model"
-            >Model</span
-          >
-        </div>
-        <input
-          type="text"
-          class="form-control"
-          aria-label="Model input"
-          aria-describedby="inputGroup-sizing-default"
-        />
-
         <div class="input-group mb-3">
         <div class="input-group-prepend">
           <span class="input-text" id="Number"
-            >Car number</span
+            >Номер</span
           >
         </div>
         <input
           type="text"
-          class="form-control"
+          size = 40
           aria-label="Number input"
           aria-describedby="inputGroup-sizing-default"
         />
 
       </div>
-      <div class="d-flex justify-content-center">
-        <button type="submit" class="btn btn-outline-danger mb-3">Зареєструвати</button>
+    <div class="d-flex justify-content-center">
+        <button type="submit" class="btn btn-outline-danger mb-3" >Зарегиcтрировать</button>
       </div>
     </form>
     <div id="root" class="container"></div>

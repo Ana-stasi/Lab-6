@@ -29,7 +29,7 @@ const show = async () => {
 };
 
 const fetchData = async () => { 
-  const fetched = await fetch("/api/") //промис, если мы зашли, и все нормас, мы возвращаем данные
+  const fetched = await fetch("/api/") //промис, если мы зашли, и все нормально, мы возвращаем данные
     .then(response => { //дата с базы данных (апи)
       if (response.ok) {
         return response.json(); //превращаем в объект (потому что это было строкой)
@@ -47,7 +47,7 @@ document.getElementById("registerForm").onsubmit = async e => { //получил
   const coll = Array.from(e.target.elements).slice(0,2); //не дает заполнить пустые
   if (!coll.every((elem) => elem.value !== '')
   ) {
-    alert("Ви не заповнили всі поля реєстрації! Спробуйте ще раз!");
+    alert("У вас остались пустые поля! :(");
     return;
   }
   const data = {
