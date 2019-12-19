@@ -1,0 +1,95 @@
+.titlen {
+  font: italic !important;
+  font-family: cursive !important;
+  text-align: center !important;
+  color: rgb(68, 17, 93) !important;
+}
+.title2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: black;
+}
+body {
+  background: linear-gradient(45deg,#ffff6742,rgb(172, 121, 121));
+}
+.navbarn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.text {
+  font-family: "Times New Roman", Times, serif;
+  padding: 25px;
+  margin: 25px;
+}
+.navitem {
+  padding: 30px;
+  margin: 30px;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 5px dashed rgb(74, 75, 71);
+}
+a {
+  color: blue !important;
+  text-decoration-line: none !important;
+}
+a:visited {
+  color: black !important;
+  text-decoration-line: none !important;
+}
+a:hover{
+  color: red !important;
+}
+p {
+  text-indent: 40px;
+  text-align: justify;
+}
+h2 {
+  font-size: 1.5rem !important;
+  margin-top: 20px !important;
+  font: italic !important;
+  font-weight: bold !important;
+  font-family: cursive !important;
+  text-align: center !important;
+  color: rgb(68, 17, 93) !important;
+}
+.letter {
+  color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 150%;
+}
+img{
+    border: 3px solid rgb(131, 87, 82);
+    width:50%;
+    height: 50%;
+}
+.img-center{
+    margin: auto;
+    display: block;
+}
+.center-text{
+    text-align: center;
+}
+.info{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 120%;  
+}
+table {
+    border: 1px solid black;
+    text-align: left;
+    margin: auto;
+    background-color: white;
+    padding: 5px;
+} 
+th {
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
