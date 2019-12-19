@@ -7,5 +7,5 @@ notifications:
   email: false
 deploy:
   provider: heroku
-  key: $key
+  api_key: $key
   app: "Lab-6"
